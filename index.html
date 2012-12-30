@@ -1,30 +1,22 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
     <head>
 		<meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>PFold: Paper-Like Unfolding Effect</title>
+        <title>PinU Postcard</title>
         <meta name="description" content="PFold: Paper-Like Unfolding Effect" />
         <meta name="keywords" content="css3, experiment, 3d, unfolding, fold, paper, component, element, web design, jquery, plugin, perspective" />
         <meta name="author" content="Codrops" />
         <link rel="shortcut icon" href="../favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/pfold.css" />
-        <link rel="stylesheet" type="text/css" href="css/custom1.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom2.css" />
 		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
 		<!--[if lte IE 8]><style>.support-note .note-ie{display:block;}</style><![endif]-->
 		<style>
-			body { background: url(images/bg.jpg); }
-			.container > header h1 {
-			    color: #fff;
-			    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
-			}
-
-			.container > header h2,
-			p.info  {
-			    color: #4e2f1d;
-			    text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+			body {
+				background-image: url(images/bg2.jpg);
 			}
 		</style>
     </head>
@@ -32,11 +24,12 @@
         <div class="container">
 		
 			<!-- Codrops top bar -->
-            <div class="codrops-top clearfix">
+        <!--    <div class="codrops-top clearfix">
                 <a href="http://tympanus.net/Tutorials/CustomLoginFormStyling/">
                     <strong>&laquo; Previous Demo: </strong>Custom Login Form Styling
                 </a>
                 <span class="right">
+					<a href="http://dribbble.com/twistedfork">Images by Dan Matutina</a>
                     <a href="http://tympanus.net/codrops/?p=11459">
                         <strong>Back to the Codrops Article</strong>
                     </a>
@@ -45,14 +38,15 @@
 			
 			<header>
 			
-				<h1><strong>PFold:</strong> Paper-Like Unfolding Effect</h1>
-				<h2>Paper-like unfolding effect experiment</h2>
+				<h1><strong>PinU</strong> <h3><span class="pu">『品优』</span>生活从此刻开始</h3></h1>
+			<!--	<h2>Paper-like unfolding effect experiment</h2>-->
 				
-				<nav class="codrops-demos">
-					<a class="current-demo" href="index.html">Demo 1</a>
+			<!--	<nav class="codrops-demos">
+					<a href="index.html">Demo 1</a>
 					<a href="index2.html">Demo 2</a>
-					<a href="index3.html">Demo 3</a>
+					<a class="current-demo" href="index3.html">Demo 3</a>
 				</nav>
+			-->	
 				
 				<div class="support-note"><!-- let's check browser support with modernizr -->
 					<span class="no-csstransforms3d">CSS 3D transforms are not supported in your browser</span>
@@ -61,23 +55,62 @@
 				
 			</header>
 			
-			<section class="main demo-1">
+			
+			<section class="main demo-2">
+				<p class="info"><strong>歌德《浮士德》</strong></br> 你不是有一份遗产吗？</br>认真地把它当做任务吧！</br>只有如此，你才真正把它变成自己的东西！</p>
 				
-				<div id="uc-container" class="uc-container">
-					<div class="uc-initial-content">
-						<!-- custom content -->
-						<span class="clickme">Click me</span>
-					</div>
-					<div class="uc-final-content">
-						<!-- custom content -->
-						<div class="scrollwrap">
-							<h3>Dear Allen,</h3>
-							<p>I just wanted to let you know that you left the garage door open and all the monkeys could get away! Great job! How often did I tell you <span>NOT</span> to forget to close it. On top of all that you also left the gate open and now they are literally in the wild! Anyway, just wated to say <span>THANKS</span> for that!</p><p class="signature">Yours, Barbara</p>
+				<div id="grid" class="grid clearfix">
+				
+					<div class="uc-container">
+						<div class="uc-initial-content">
+							<img src="images/thumbs/3.jpg" alt="image03" />
+							<span class="icon-eye"></span>
 						</div>
-						<span class="close">x</span>
-					</div>
-				</div>
-				<p class="info"><strong>Demo 1:</strong> Three folding steps with the directions left, bottom and right</p>
+						<div class="uc-final-content">
+							<img src="images/large/3.jpg" alt="image03-large" />
+							<div class="title"><h4>yooooo</h4> by someone else <a href="#" class="icon-link"></a></div>
+							<span class="icon-cancel"></span>
+						</div>
+					</div><!-- / uc-container -->
+
+					<div class="uc-container">
+						<div class="uc-initial-content">
+							<img src="images/thumbs/1.png" alt="image01" />
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<img src="images/large/1.png" alt="image01-large" />
+							<div class="title"><h4>714工作室</h4> by 王从容 <a href="#" class="icon-link"></a></div>
+							<span class="icon-cancel"></span>
+						</div>
+					</div><!-- / uc-container -->
+
+					<div class="uc-container">
+						<div class="uc-initial-content">
+							<img src="images/thumbs/2.jpg" alt="image02" />
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<img src="images/large/2.jpg" alt="image02-large" />
+							<div class="title"><h4>yooooo</h4> by someone else <a href="#" class="icon-link"></a></div>
+							<span class="icon-cancel"></span>
+						</div>
+					</div><!-- / uc-container -->
+
+					<div class="uc-container">
+						<div class="uc-initial-content">
+							<img src="images/thumbs/4.jpg" alt="image04" />
+							<span class="icon-eye"></span>
+						</div>
+						<div class="uc-final-content">
+							<img src="images/large/4.jpg" alt="image04-large" />
+							<div class="title"><h4>yooooo</h4> by someone else <a href="#" class="icon-link"></a></div>
+							<span class="icon-cancel"></span>
+						</div>
+					</div><!-- / uc-container -->
+
+				</div><!-- / grid -->
+				
 			</section>
 
 		</div>
@@ -86,20 +119,40 @@
 		<script type="text/javascript">
 			$(function() {
 
-				var $container = $( '#uc-container' ),
-					pfold = $( '#uc-container' ).pfold({
-						easing : 'ease-in-out',
-						folds : 3,
-						folddirection : ['left','bottom','right']
-					});
+				// say we want to have only one item opened at one moment
+				var opened = false;
 
-				$container.find( 'span.clickme' ).on( 'click', function() {
+				$( '#grid > div.uc-container' ).each( function( i ) {
 
-					pfold.unfold();
+					var $item = $( this ), direction;
 
-				} ).end().find( 'span.close' ).on( 'click', function() {
+					switch( i ) {
+						case 0 : direction = ['right','bottom']; break;
+						case 1 : direction = ['left','bottom']; break;
+						case 2 : direction = ['right','top']; break;
+						case 3 : direction = ['left','top']; break;
+					}
+					
+					var pfold = $item.pfold( {
+						folddirection : direction,
+						speed : 300,
+						onEndFolding : function() { opened = false; },
+						centered : true
+					} );
 
-					pfold.fold();
+					$item.find( 'span.icon-eye' ).on( 'click', function() {
+
+						if( !opened ) {
+							opened = true;
+							pfold.unfold();
+						}
+
+
+					} ).end().find( 'span.icon-cancel' ).on( 'click', function() {
+
+						pfold.fold();
+
+					} );
 
 				} );
 				

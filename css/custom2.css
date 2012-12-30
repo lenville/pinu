@@ -1,3 +1,7 @@
+.pu{
+  color:#4889b2;
+}
+
 /* Demo 2 */
 @font-face {
   font-family: 'entypo-selected';
@@ -29,7 +33,7 @@
 .icon-link:before { content: '\4c'; } /* 'L' */
 
 .demo-2 .grid {
-    width: 460px;
+    width: 960px;
     margin: 30px auto;
 }
 
@@ -80,6 +84,8 @@
 }
 
 .demo-2 .uc-initial-content img {
+	width:100%;
+	height:100%;
     display: block;
 }
 
